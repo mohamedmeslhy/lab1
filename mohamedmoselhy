@@ -1,0 +1,7 @@
+mohamed moselhy
+mkdir dir1
+cd dir1
+git init
+touch file1
+git add file1
+git commit -m "this file1 creation"
