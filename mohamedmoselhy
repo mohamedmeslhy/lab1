@@ -1,3 +1,4 @@
+
 mohamed moselhy
 mkdir dir1
 cd dir1
@@ -5,3 +6,28 @@ git init
 touch file1
 git add file1
 git commit -m "this file1 creation"
+
+-------lab 2----
+vi mohamedmoselhy
+git branch dev
+git branch test
+git checkout dev
+delete from remote : git push origin :dev
+delete local :  git branch -d dev
+
+
+ git push origin dev
+ git push origin dev
+
+git checkout main
+git merge dev
+ git push origin main
+
+git tag -a v1.4 -m "addtag"
+
+git push origin v1.4
+
+git show v1.4
+
+git push origin –delete v1.4
+git tag -d v1.4
