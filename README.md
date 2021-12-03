@@ -6,13 +6,13 @@ Use the package manager [pip](https://pypi.org/project/pip/) to install foorbar.
 `pip install foorbar`
 
 # Usage
-python
+```python
 import foorbar
 
 foorbar.pluralize('word') # return 'word'
 foorbar.pluralize('goose') # return 'geese' 
 foorbar.singularize('phenomena') # return 'phonemena'
-
+```
 
 
 # Contributing
